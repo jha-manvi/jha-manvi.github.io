@@ -1,0 +1,15 @@
+/* Example Tableau Icons CSS */
+
+/* Define the font face for the Tableau icons */
+@font-face {
+    font-family: 'TableauIcons';
+    src: url('https://surveymonkey-assets.s3.amazonaws.com/papiasset/apps/logos/2e989404-aed0-41ea-9198-ddc1c76d7a4a') format('woff');
+    /* Add additional font formats (e.g., woff2, ttf) for browser compatibility */
+  }
+  
+  /* Map icon classes to specific Unicode characters in the font */
+  .bx.bxl-tableau:before {
+    content: '\E001'; /* Unicode character for the Tableau icon */
+    /* Additional styling properties if needed */
+  }
+  

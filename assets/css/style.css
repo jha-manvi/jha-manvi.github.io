@@ -58,6 +58,10 @@ h1, h2, h3, h4, h5, h6 {
   overflow-y: auto;
 }
 
+#about {
+  margin-top: 40px; /* Adjust the value to increase or decrease the space */
+}
+
 #header * {
   transition: ease-in-out 0s;
 }
@@ -105,6 +109,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1);
   color: #fff;
   line-height: 1;
   margin-right: 8px;
@@ -116,6 +121,12 @@ h1, h2, h3, h4, h5, h6 {
 #header .social-links a:hover {
   background: #1c7d32;
 }
+
+.social-links a.tableau-icon img {
+  /* Apply the CSS filter to the image to change its color to white */
+  filter: brightness(0) invert(1);
+}
+
 
 @media (max-width: 992px) {
   #header h1 {
@@ -130,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   #header .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 }
@@ -280,6 +291,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-top .social-links, #header.header-top h2 {
+  display: none;
+}
+
+#header.header-top .about-me-container, #header.header-top h2 {
+  display: none;
+}
+
+#header.header-top .interests-container, #header.header-top h2 {
   display: none;
 }
 
@@ -929,7 +948,7 @@ section .container {
 .contact .info-box .social-links a {
   font-size: 18px;
   display: inline-block;
-  color: #fff;
+  
   line-height: 1;
   margin-right: 12px;
   transition: 0.3s;

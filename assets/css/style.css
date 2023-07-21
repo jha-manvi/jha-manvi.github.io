@@ -359,8 +359,8 @@ section .container {
   }
 }
 
-.section-title h2 {
-  font-size: 14px;
+.section-title h3 {
+  
   font-weight: 500;
   padding: 0;
   line-height: 1px;
@@ -371,7 +371,7 @@ section .container {
   font-family: "Poppins", sans-serif;
 }
 
-.section-title h2::after {
+.section-title h3::after {
   content: "";
   width: 120px;
   height: 1px;

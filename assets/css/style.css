@@ -302,6 +302,10 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
+#header.header-top .skills-container, #header.header-top h2 {
+  display: none;
+}
+
 #header.header-top h1 {
   margin-right: auto;
   font-size: 36px;
@@ -359,7 +363,7 @@ section .container {
   }
 }
 
-.section-title h3 {
+.section-title h4 {
   
   font-weight: 500;
   padding: 0;
@@ -371,7 +375,7 @@ section .container {
   font-family: "Poppins", sans-serif;
 }
 
-.section-title h3::after {
+.section-title h4::after {
   content: "";
   width: 120px;
   height: 1px;
